@@ -1,8 +1,15 @@
 import React from 'react';
+import CategoryBox from './CategoryBox';
 
 function CategoryList() {
     return (
-        <div>CategoryList</div>
+        <div class="grid-container">
+            <CategoryBox />
+            <CategoryBox />
+            <CategoryBox />
+            <CategoryBox />
+            <CategoryBox />
+        </div>
     )
 };
 

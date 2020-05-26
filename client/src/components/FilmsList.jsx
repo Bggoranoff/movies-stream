@@ -1,8 +1,16 @@
 import React from 'react';
+import FilmBox from "./FilmBox";
 
 function FilmsList() {
     return (
-        <div>FilmsList</div>
+        <div class="grid-container">
+            <FilmBox />
+            <FilmBox />
+            <FilmBox />
+            <FilmBox />
+            <FilmBox />
+            <FilmBox />
+        </div>
     )
 };
 
