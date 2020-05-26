@@ -1,15 +1,15 @@
 import React from 'react';
 import FilmBox from "./FilmBox";
 
-function FilmsList() {
+function FilmsList(props) {
     return (
-        <div class="grid-container">
-            <FilmBox />
-            <FilmBox />
-            <FilmBox />
-            <FilmBox />
-            <FilmBox />
-            <FilmBox />
+        <div className="grid-container">
+            <FilmBox id={props.match.params.id} />
+            <FilmBox id={props.match.params.id} />
+            <FilmBox id={props.match.params.id} />
+            <FilmBox id={props.match.params.id} />
+            <FilmBox id={props.match.params.id} />
+            <FilmBox id={props.match.params.id} />
         </div>
     )
 };
