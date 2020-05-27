@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Header() {
+function Header({ setVisible }) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item bars-icon">
-                        <a className="nav-link" href="#">&#9776;</a>
+                        <button className="nav-link" style={{ border: '0px', backgroundColor: 'white' }} onClick={() => setVisible(true)}>&#9776;</button>
                     </li>
                 </ul>
                 <form className="form-inline my-2 my-lg-0">

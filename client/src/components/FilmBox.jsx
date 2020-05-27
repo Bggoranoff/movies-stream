@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function FilmBox({ id }) {
     return (
@@ -7,9 +8,8 @@ function FilmBox({ id }) {
             <div className="card-body">
                 <h3 className="card-title">Kung Fu Panda</h3>
                 <h5 className="card-subtitle mb-2 text-muted">{id}</h5>
-                <a href="#" className="card-link"><i className="fa fa-download" aria-hidden="true"></i>
-                </a>
-                <a href="#" className="card-link"><i className="fa fa-eye" aria-hidden="true"></i></a>
+                <Link to="/films/download/123" className="card-link"><i className="fa fa-download" aria-hidden="true"></i></Link>
+                <Link to="/films/watch/123" className="card-link"><i className="fa fa-eye" aria-hidden="true"></i></Link>
             </div>
         </div>
     )
