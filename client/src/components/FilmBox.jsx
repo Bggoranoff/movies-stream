@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function FilmBox({ id }) {
     return (
         <div className="card" style={{ width: '27rem' }}>
-            <img className="card-img-top" src="https://ichef.bbci.co.uk/news/1024/media/images/77396000/jpg/_77396213_kung-fu-panda-21.jpg" alt="Card image cap" />
+            <img className="card-img-top" src="https://ichef.bbci.co.uk/news/1024/media/images/77396000/jpg/_77396213_kung-fu-panda-21.jpg" alt="Card cap" />
             <div className="card-body">
                 <h3 className="card-title">Kung Fu Panda</h3>
                 <h5 className="card-subtitle mb-2 text-muted">{id}</h5>

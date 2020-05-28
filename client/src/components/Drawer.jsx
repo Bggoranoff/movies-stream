@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 function Drawer({ visible, setVisible, }) {
     const closeDrawer = () => setVisible(false);
     return (
+        // eslint-disable-next-line
         <AntdDrawer title={<h3>&#127909; Bomagflix</h3>} placement='left' closable='false' onClose={closeDrawer} visible={visible}>
             <Link className='drawer-link' to='/'>Categories</Link>
             <br />
